@@ -14,7 +14,7 @@ body {
 header {
     height: 60px;
     width: 100%;
-    background: #000000b4;
+    background: #e84517;
     color: #fff;
     display: flex;
     align-items: center;
@@ -33,10 +33,25 @@ header {
 }
 
 nav ul li {
-    list-style: none;
+    
     display: inline;
     margin-right: 20px;
     font-weight: 550;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+nav ul li a:hover{
+    color: #e84517;
+    background: #fff;
+    transition: ease 0.3s;
 }
 
 .logo {
@@ -92,10 +107,37 @@ nav ul li {
     border: 0;
     border-radius: 0px 5px 5px 0px;
     font-size: 1rem;
-    background: rgb(255, 13, 13);
+    background: #e84517;
     color: #fff;
     cursor: pointer;
 }
+
+.explore-btn{
+    margin-top: 55px;
+    padding: 15px 0px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 1rem;
+    background: #e84517;
+    color: #fff;
+    cursor: pointer
+}
+
+.explore-btn a{
+    padding: 15px 20px;   
+     border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.explore-btn a:hover{
+    background: #fff;
+    transition: ease 0.3s;
+    color: #e84517;
+}
+
+
 
 /* --------------recipe section------------ */
 
@@ -153,7 +195,7 @@ nav ul li {
 }
 
 footer{
-    background: #333;
+    background: #e84517;
     padding: 20px 0;
     color: #fff;
     text-align: center;
@@ -166,6 +208,80 @@ footer{
     cursor: pointer;
     display: block;
 }
+
+
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* explore section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+
+
+.explore{
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.explore-more-content {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0)), url(img/explore-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 20px;
+}
+
+.explore-more-content h2 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.explore-more-content p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.explore-see-all{
+    margin-top: 30px;
+    float: left;
+    margin-left: 50px;
+    padding: 15px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 1rem;
+    background: #e84517;
+    cursor: pointer
+}
+
+.explore-see-all a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.explore-see-all:hover{
+    background: #fff;
+    transition: ease 0.3s;
+    color: #e84517;
+}
+
+.explore-see-all:hover a{
+    color: #e84517
+}
+
+/*-*-*--*-*-*-*-*-*-*-*-*-*-*-*- end explore section -*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+
+
+
+
 
 /*---------- media query -------------*/
 
